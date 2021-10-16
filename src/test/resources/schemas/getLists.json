@@ -1,0 +1,1325 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "status": "OK",
+      "copyright": "Copyright (c) 2021 The New York Times Company.  All Rights Reserved.",
+      "num_results": 15,
+      "last_modified": "2021-10-15T20:12:54-04:00",
+      "results": [
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 1,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0735222355?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0735222355",
+              "isbn13": "9780735222359"
+            },
+            {
+              "isbn10": "0735222371",
+              "isbn13": "9780735222373"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE LINCOLN HIGHWAY",
+              "description": "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
+              "contributor": "by Amor Towles",
+              "author": "Amor Towles",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Viking",
+              "primary_isbn13": "9780735222359",
+              "primary_isbn10": "0735222355"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 2,
+          "rank_last_week": 1,
+          "weeks_on_list": 2,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1538728621?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1538728621",
+              "isbn13": "9781538728628"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE WISH",
+              "description": "Maggie Dawes, a renowned travel photographer, struggles with a medical diagnosis over Christmas.",
+              "contributor": "by Nicholas Sparks",
+              "author": "Nicholas Sparks",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Grand Central",
+              "primary_isbn13": "9781538728628",
+              "primary_isbn10": "1538728621"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 3,
+          "rank_last_week": 2,
+          "weeks_on_list": 2,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1982168439?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1982168439",
+              "isbn13": "9781982168438"
+            },
+            {
+              "isbn10": "1982168455",
+              "isbn13": "9781982168452"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "CLOUD CUCKOO LAND",
+              "description": "An interconnected cast of dreamers and outsiders are in dangerous and disparate settings past, present and future.",
+              "contributor": "by Anthony Doerr",
+              "author": "Anthony Doerr",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Scribner",
+              "primary_isbn13": "9781982168438",
+              "primary_isbn10": "1982168439"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 4,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0374181179?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0374181179",
+              "isbn13": "9780374181178"
+            },
+            {
+              "isbn10": "0374719799",
+              "isbn13": "9780374719791"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "CROSSROADS",
+              "description": "Members of a Midwestern family find themselves at a pivotal moment of moral crisis in 1971.",
+              "contributor": "by Jonathan Franzen",
+              "author": "Jonathan Franzen",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Farrar, Straus & Giroux",
+              "primary_isbn13": "9780374181178",
+              "primary_isbn10": "0374181179"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 5,
+          "rank_last_week": 3,
+          "weeks_on_list": 4,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1250220254?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1250220254",
+              "isbn13": "9781250220257"
+            },
+            {
+              "isbn10": "1250220262",
+              "isbn13": "9781250220264"
+            },
+            {
+              "isbn10": "1250810698",
+              "isbn13": "9781250810694"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "APPLES NEVER FALL",
+              "description": "The Delaney siblings suspect their father of causing the disappearance of their mother.",
+              "contributor": "by Liane Moriarty",
+              "author": "Liane Moriarty",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Holt",
+              "primary_isbn13": "9781250220257",
+              "primary_isbn10": "1250220254"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 6,
+          "rank_last_week": 4,
+          "weeks_on_list": 4,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0385545134?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0385545134",
+              "isbn13": "9780385545136"
+            },
+            {
+              "isbn10": "0385545142",
+              "isbn13": "9780385545143"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "HARLEM SHUFFLE",
+              "description": "Ray Carney, a family man who sells furniture on 125th Street, gets a new clientele made up of vicious and unsavory characters.",
+              "contributor": "by Colson Whitehead",
+              "author": "Colson Whitehead",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Doubleday",
+              "primary_isbn13": "9780385545136",
+              "primary_isbn10": "0385545134"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 7,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1984821520?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1984821520",
+              "isbn13": "9781984821522"
+            },
+            {
+              "isbn10": "1984821539",
+              "isbn13": "9781984821539"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE BUTLER",
+              "description": "The working relationship between a man and woman from different worlds develops into something new for them.",
+              "contributor": "by Danielle Steel",
+              "author": "Danielle Steel",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Delacorte",
+              "primary_isbn13": "9781984821522",
+              "primary_isbn10": "1984821520"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 8,
+          "rank_last_week": 11,
+          "weeks_on_list": 23,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1501171348?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1501171348",
+              "isbn13": "9781501171345"
+            },
+            {
+              "isbn10": "1501171364",
+              "isbn13": "9781501171369"
+            },
+            {
+              "isbn10": "1797124749",
+              "isbn13": "9781797124742"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE LAST THING HE TOLD ME",
+              "description": "Hannah Hall discovers truths about her missing husband and bonds with his daughter from a previous relationship.",
+              "contributor": "by Laura Dave",
+              "author": "Laura Dave",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Simon & Schuster",
+              "primary_isbn13": "9781501171345",
+              "primary_isbn10": "1501171348"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 9,
+          "rank_last_week": 9,
+          "weeks_on_list": 10,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1982173610?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1982173610",
+              "isbn13": "9781982173616"
+            },
+            {
+              "isbn10": "1982173637",
+              "isbn13": "9781982173630"
+            },
+            {
+              "isbn10": "179712269X",
+              "isbn13": "9781797122694"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "BILLY SUMMERS",
+              "description": "A killer for hire who only takes out bad guys seeks redemption as he does one final job.",
+              "contributor": "by Stephen King",
+              "author": "Stephen King",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Scribner",
+              "primary_isbn13": "9781982173616",
+              "primary_isbn10": "1982173610"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 10,
+          "rank_last_week": 6,
+          "weeks_on_list": 3,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0316276626?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0316276626",
+              "isbn13": "9780316276627"
+            },
+            {
+              "isbn10": "0316280011",
+              "isbn13": "9780316280013"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE JAILHOUSE LAWYER",
+              "description": "A young lawyer winds up in an Alabama jail that remains mysteriously crowded.",
+              "contributor": "by James Patterson and Nancy Allen",
+              "author": "James Patterson and Nancy Allen",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Little, Brown",
+              "primary_isbn13": "9780316276627",
+              "primary_isbn10": "0316276626"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 11,
+          "rank_last_week": 7,
+          "weeks_on_list": 3,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0393881148?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0393881148",
+              "isbn13": "9780393881141"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "BEWILDERMENT",
+              "description": "An astrobiologist and single father learns of a neurofeedback treatment that may improve his son’s emotional control.",
+              "contributor": "by Richard Powers",
+              "author": "Richard Powers",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Norton",
+              "primary_isbn13": "9780393881141",
+              "primary_isbn10": "0393881148"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 12,
+          "rank_last_week": 0,
+          "weeks_on_list": 1,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1250276896?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1250276896",
+              "isbn13": "9781250276896"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THREE SISTERS",
+              "description": "The third book in the Tattooist of Auschwitz series. As the allies close in, Livia, Magda and Cibi face problems and secrets from their past.",
+              "contributor": "by Heather Morris",
+              "author": "Heather Morris",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "St. Martin's",
+              "primary_isbn13": "9781250276896",
+              "primary_isbn10": "1250276896"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 13,
+          "rank_last_week": 12,
+          "weeks_on_list": 5,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0374602603?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0374602603",
+              "isbn13": "9780374602604"
+            },
+            {
+              "isbn10": "0374602611",
+              "isbn13": "9780374602611"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "BEAUTIFUL WORLD, WHERE ARE YOU",
+              "description": "A novelist, a warehouse worker, an editorial assistant and a political adviser deal with changes.",
+              "contributor": "by Sally Rooney",
+              "author": "Sally Rooney",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Farrar, Straus & Giroux",
+              "primary_isbn13": "9780374602604",
+              "primary_isbn10": "0374602603"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 14,
+          "rank_last_week": 0,
+          "weeks_on_list": 43,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/0765387565?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "0765387565",
+              "isbn13": "9780765387561"
+            },
+            {
+              "isbn10": "1250793971",
+              "isbn13": "9781250793997"
+            },
+            {
+              "isbn10": "1250793998",
+              "isbn13": "9781250795182"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "THE INVISIBLE LIFE OF ADDIE LARUE",
+              "description": "A Faustian bargain comes with a curse that affects the adventure Addie LaRue has across centuries.",
+              "contributor": "by V.E. Schwab",
+              "author": "V.E. Schwab",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Tor/Forge",
+              "primary_isbn13": "9781250835994",
+              "primary_isbn10": "None"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        },
+        {
+          "list_name": "Hardcover Fiction",
+          "display_name": "Hardcover Fiction",
+          "bestsellers_date": "2021-10-09",
+          "published_date": "2021-10-24",
+          "rank": 15,
+          "rank_last_week": 13,
+          "weeks_on_list": 4,
+          "asterisk": 0,
+          "dagger": 0,
+          "amazon_product_url": "https://www.amazon.com/dp/1982164883?tag=NYTBSREV-20",
+          "isbns": [
+            {
+              "isbn10": "1982164883",
+              "isbn13": "9781982164881"
+            },
+            {
+              "isbn10": "1982164905",
+              "isbn13": "9781982164904"
+            },
+            {
+              "isbn10": "1797128256",
+              "isbn13": "9781797128252"
+            }
+          ],
+          "book_details": [
+            {
+              "title": "VINCE FLYNN: ENEMY AT THE GATES",
+              "description": "Anthony Cook, an autocratic president, distrusts Mitch Rapp, who is working to uncover a traitor.",
+              "contributor": "by Kyle Mills",
+              "author": "Kyle Mills",
+              "contributor_note": "",
+              "price": "0.00",
+              "age_group": "",
+              "publisher": "Emily Bestler/Atria",
+              "primary_isbn13": "9781982164881",
+              "primary_isbn10": "1982164883"
+            }
+          ],
+          "reviews": [
+            {
+              "book_review_link": "",
+              "first_chapter_link": "",
+              "sunday_review_link": "",
+              "article_chapter_link": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "required": [
+    "status",
+    "copyright",
+    "num_results",
+    "last_modified",
+    "results"
+  ],
+  "properties": {
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The status schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "OK"
+      ]
+    },
+    "copyright": {
+      "$id": "#/properties/copyright",
+      "type": "string",
+      "title": "The copyright schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Copyright (c) 2021 The New York Times Company.  All Rights Reserved."
+      ]
+    },
+    "num_results": {
+      "$id": "#/properties/num_results",
+      "type": "integer",
+      "title": "The num_results schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        15
+      ]
+    },
+    "last_modified": {
+      "$id": "#/properties/last_modified",
+      "type": "string",
+      "title": "The last_modified schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2021-10-15T20:12:54-04:00"
+      ]
+    },
+    "results": {
+      "$id": "#/properties/results",
+      "type": "array",
+      "title": "The results schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "list_name": "Hardcover Fiction",
+            "display_name": "Hardcover Fiction",
+            "bestsellers_date": "2021-10-09",
+            "published_date": "2021-10-24",
+            "rank": 1,
+            "rank_last_week": 0,
+            "weeks_on_list": 1,
+            "asterisk": 0,
+            "dagger": 0,
+            "amazon_product_url": "https://www.amazon.com/dp/0735222355?tag=NYTBSREV-20",
+            "isbns": [
+              {
+                "isbn10": "0735222355",
+                "isbn13": "9780735222359"
+              },
+              {
+                "isbn10": "0735222371",
+                "isbn13": "9780735222373"
+              }
+            ],
+            "book_details": [
+              {
+                "title": "THE LINCOLN HIGHWAY",
+                "description": "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
+                "contributor": "by Amor Towles",
+                "author": "Amor Towles",
+                "contributor_note": "",
+                "price": "0.00",
+                "age_group": "",
+                "publisher": "Viking",
+                "primary_isbn13": "9780735222359",
+                "primary_isbn10": "0735222355"
+              }
+            ],
+            "reviews": [
+              {
+                "book_review_link": "",
+                "first_chapter_link": "",
+                "sunday_review_link": "",
+                "article_chapter_link": ""
+              }
+            ]
+          },
+          {
+            "list_name": "Hardcover Fiction",
+            "display_name": "Hardcover Fiction",
+            "bestsellers_date": "2021-10-09",
+            "published_date": "2021-10-24",
+            "rank": 2,
+            "rank_last_week": 1,
+            "weeks_on_list": 2,
+            "asterisk": 0,
+            "dagger": 0,
+            "amazon_product_url": "https://www.amazon.com/dp/1538728621?tag=NYTBSREV-20",
+            "isbns": [
+              {
+                "isbn10": "1538728621",
+                "isbn13": "9781538728628"
+              }
+            ],
+            "book_details": [
+              {
+                "title": "THE WISH",
+                "description": "Maggie Dawes, a renowned travel photographer, struggles with a medical diagnosis over Christmas.",
+                "contributor": "by Nicholas Sparks",
+                "author": "Nicholas Sparks",
+                "contributor_note": "",
+                "price": "0.00",
+                "age_group": "",
+                "publisher": "Grand Central",
+                "primary_isbn13": "9781538728628",
+                "primary_isbn10": "1538728621"
+              }
+            ],
+            "reviews": [
+              {
+                "book_review_link": "",
+                "first_chapter_link": "",
+                "sunday_review_link": "",
+                "article_chapter_link": ""
+              }
+            ]
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/results/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/results/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "list_name": "Hardcover Fiction",
+                "display_name": "Hardcover Fiction",
+                "bestsellers_date": "2021-10-09",
+                "published_date": "2021-10-24",
+                "rank": 1,
+                "rank_last_week": 0,
+                "weeks_on_list": 1,
+                "asterisk": 0,
+                "dagger": 0,
+                "amazon_product_url": "https://www.amazon.com/dp/0735222355?tag=NYTBSREV-20",
+                "isbns": [
+                  {
+                    "isbn10": "0735222355",
+                    "isbn13": "9780735222359"
+                  },
+                  {
+                    "isbn10": "0735222371",
+                    "isbn13": "9780735222373"
+                  }
+                ],
+                "book_details": [
+                  {
+                    "title": "THE LINCOLN HIGHWAY",
+                    "description": "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
+                    "contributor": "by Amor Towles",
+                    "author": "Amor Towles",
+                    "contributor_note": "",
+                    "price": "0.00",
+                    "age_group": "",
+                    "publisher": "Viking",
+                    "primary_isbn13": "9780735222359",
+                    "primary_isbn10": "0735222355"
+                  }
+                ],
+                "reviews": [
+                  {
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": "",
+                    "article_chapter_link": ""
+                  }
+                ]
+              }
+            ],
+            "required": [
+              "list_name",
+              "display_name",
+              "bestsellers_date",
+              "published_date",
+              "rank",
+              "rank_last_week",
+              "weeks_on_list",
+              "asterisk",
+              "dagger",
+              "amazon_product_url",
+              "isbns",
+              "book_details",
+              "reviews"
+            ],
+            "properties": {
+              "list_name": {
+                "$id": "#/properties/results/items/anyOf/0/properties/list_name",
+                "type": "string",
+                "title": "The list_name schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Hardcover Fiction"
+                ]
+              },
+              "display_name": {
+                "$id": "#/properties/results/items/anyOf/0/properties/display_name",
+                "type": "string",
+                "title": "The display_name schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Hardcover Fiction"
+                ]
+              },
+              "bestsellers_date": {
+                "$id": "#/properties/results/items/anyOf/0/properties/bestsellers_date",
+                "type": "string",
+                "title": "The bestsellers_date schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2021-10-09"
+                ]
+              },
+              "published_date": {
+                "$id": "#/properties/results/items/anyOf/0/properties/published_date",
+                "type": "string",
+                "title": "The published_date schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "2021-10-24"
+                ]
+              },
+              "rank": {
+                "$id": "#/properties/results/items/anyOf/0/properties/rank",
+                "type": "integer",
+                "title": "The rank schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              },
+              "rank_last_week": {
+                "$id": "#/properties/results/items/anyOf/0/properties/rank_last_week",
+                "type": "integer",
+                "title": "The rank_last_week schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "weeks_on_list": {
+                "$id": "#/properties/results/items/anyOf/0/properties/weeks_on_list",
+                "type": "integer",
+                "title": "The weeks_on_list schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              },
+              "asterisk": {
+                "$id": "#/properties/results/items/anyOf/0/properties/asterisk",
+                "type": "integer",
+                "title": "The asterisk schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "dagger": {
+                "$id": "#/properties/results/items/anyOf/0/properties/dagger",
+                "type": "integer",
+                "title": "The dagger schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  0
+                ]
+              },
+              "amazon_product_url": {
+                "$id": "#/properties/results/items/anyOf/0/properties/amazon_product_url",
+                "type": "string",
+                "title": "The amazon_product_url schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "https://www.amazon.com/dp/0735222355?tag=NYTBSREV-20"
+                ]
+              },
+              "isbns": {
+                "$id": "#/properties/results/items/anyOf/0/properties/isbns",
+                "type": "array",
+                "title": "The isbns schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "isbn10": "0735222355",
+                      "isbn13": "9780735222359"
+                    },
+                    {
+                      "isbn10": "0735222371",
+                      "isbn13": "9780735222373"
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/results/items/anyOf/0/properties/isbns/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/results/items/anyOf/0/properties/isbns/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "isbn10": "0735222355",
+                          "isbn13": "9780735222359"
+                        }
+                      ],
+                      "required": [
+                        "isbn10",
+                        "isbn13"
+                      ],
+                      "properties": {
+                        "isbn10": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/isbns/items/anyOf/0/properties/isbn10",
+                          "type": "string",
+                          "title": "The isbn10 schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "0735222355"
+                          ]
+                        },
+                        "isbn13": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/isbns/items/anyOf/0/properties/isbn13",
+                          "type": "string",
+                          "title": "The isbn13 schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "9780735222359"
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "book_details": {
+                "$id": "#/properties/results/items/anyOf/0/properties/book_details",
+                "type": "array",
+                "title": "The book_details schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "title": "THE LINCOLN HIGHWAY",
+                      "description": "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
+                      "contributor": "by Amor Towles",
+                      "author": "Amor Towles",
+                      "contributor_note": "",
+                      "price": "0.00",
+                      "age_group": "",
+                      "publisher": "Viking",
+                      "primary_isbn13": "9780735222359",
+                      "primary_isbn10": "0735222355"
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/results/items/anyOf/0/properties/book_details/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "title": "THE LINCOLN HIGHWAY",
+                          "description": "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954.",
+                          "contributor": "by Amor Towles",
+                          "author": "Amor Towles",
+                          "contributor_note": "",
+                          "price": "0.00",
+                          "age_group": "",
+                          "publisher": "Viking",
+                          "primary_isbn13": "9780735222359",
+                          "primary_isbn10": "0735222355"
+                        }
+                      ],
+                      "required": [
+                        "title",
+                        "description",
+                        "contributor",
+                        "author",
+                        "contributor_note",
+                        "price",
+                        "age_group",
+                        "publisher",
+                        "primary_isbn13",
+                        "primary_isbn10"
+                      ],
+                      "properties": {
+                        "title": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/title",
+                          "type": "string",
+                          "title": "The title schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "THE LINCOLN HIGHWAY"
+                          ]
+                        },
+                        "description": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/description",
+                          "type": "string",
+                          "title": "The description schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "Two friends who escaped from a juvenile work farm take Emmett Watson on an unexpected journey to New York City in 1954."
+                          ]
+                        },
+                        "contributor": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/contributor",
+                          "type": "string",
+                          "title": "The contributor schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "by Amor Towles"
+                          ]
+                        },
+                        "author": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/author",
+                          "type": "string",
+                          "title": "The author schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "Amor Towles"
+                          ]
+                        },
+                        "contributor_note": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/contributor_note",
+                          "type": "string",
+                          "title": "The contributor_note schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "price": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/price",
+                          "type": "string",
+                          "title": "The price schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "0.00"
+                          ]
+                        },
+                        "age_group": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/age_group",
+                          "type": "string",
+                          "title": "The age_group schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "publisher": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/publisher",
+                          "type": "string",
+                          "title": "The publisher schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "Viking"
+                          ]
+                        },
+                        "primary_isbn13": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/primary_isbn13",
+                          "type": "string",
+                          "title": "The primary_isbn13 schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "9780735222359"
+                          ]
+                        },
+                        "primary_isbn10": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/book_details/items/anyOf/0/properties/primary_isbn10",
+                          "type": "string",
+                          "title": "The primary_isbn10 schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            "0735222355"
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              },
+              "reviews": {
+                "$id": "#/properties/results/items/anyOf/0/properties/reviews",
+                "type": "array",
+                "title": "The reviews schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": [],
+                "examples": [
+                  [
+                    {
+                      "book_review_link": "",
+                      "first_chapter_link": "",
+                      "sunday_review_link": "",
+                      "article_chapter_link": ""
+                    }
+                  ]
+                ],
+                "additionalItems": true,
+                "items": {
+                  "$id": "#/properties/results/items/anyOf/0/properties/reviews/items",
+                  "anyOf": [
+                    {
+                      "$id": "#/properties/results/items/anyOf/0/properties/reviews/items/anyOf/0",
+                      "type": "object",
+                      "title": "The first anyOf schema",
+                      "description": "An explanation about the purpose of this instance.",
+                      "default": {},
+                      "examples": [
+                        {
+                          "book_review_link": "",
+                          "first_chapter_link": "",
+                          "sunday_review_link": "",
+                          "article_chapter_link": ""
+                        }
+                      ],
+                      "required": [
+                        "book_review_link",
+                        "first_chapter_link",
+                        "sunday_review_link",
+                        "article_chapter_link"
+                      ],
+                      "properties": {
+                        "book_review_link": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/reviews/items/anyOf/0/properties/book_review_link",
+                          "type": "string",
+                          "title": "The book_review_link schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "first_chapter_link": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/reviews/items/anyOf/0/properties/first_chapter_link",
+                          "type": "string",
+                          "title": "The first_chapter_link schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "sunday_review_link": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/reviews/items/anyOf/0/properties/sunday_review_link",
+                          "type": "string",
+                          "title": "The sunday_review_link schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        },
+                        "article_chapter_link": {
+                          "$id": "#/properties/results/items/anyOf/0/properties/reviews/items/anyOf/0/properties/article_chapter_link",
+                          "type": "string",
+                          "title": "The article_chapter_link schema",
+                          "description": "An explanation about the purpose of this instance.",
+                          "default": "",
+                          "examples": [
+                            ""
+                          ]
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  ]
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}
